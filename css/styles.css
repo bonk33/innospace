@@ -1,0 +1,100 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ), url("../images/Space\ office\ background.jpg");
+    background-color: #141E30;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.header-center {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-text-big {
+    font-size: 120px;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.header-text-small {
+    font-size: 30px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    font-weight: 300;
+}
+.header-readmore {
+    background: #3ECCB5;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 12px 26px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navigation {
+    background: #212121;
+    padding: 0;
+    margin: 0;
+}
+.navigation-container {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.navigation-brand {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+.navigation-brand > span {
+    color: #3ECCB5;
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-item {
+    display: inline-block;
+    padding: 16px;
+}
+
+.navigation-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.navigation-link:hover {
+    color: #3ECCB5;
+}
